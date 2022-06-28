@@ -13,22 +13,22 @@ public class BattleSystem : MonoBehaviour
         // let's start by setting our player dancing stats to random numbers
         // style should be random between 1-10
         int playerOneStyle = 0;
-        playerOneStyle = Random.Range(1, 10);
+        playerOneStyle = Random.Range(1, 11);
         // luck should be random between 0-4
         int playerOneLuck = 0;
         playerOneLuck = Random.Range(0, 4);
         // ryhtm should be random between 1-6
         int playerOneRyhtm = 0;
-        playerOneRyhtm= Random.Range(1, 6);
+        playerOneRyhtm= Random.Range(1, 7);
         // style should be random between 1-10
         int playerTwoStyle = 0;
-        playerTwoStyle= Random.Range(1, 10);
+        playerTwoStyle= Random.Range(1, 11);
         // luck should be random between 0-4
         int playerTwoLuck = 0;
-        playerTwoLuck= Random.Range(0, 4);
+        playerTwoLuck= Random.Range(0, 5);
         // ryhtm should be random between 1-6
         int playerTwoRyhtm = 0;
-        playerTwoRyhtm= Random.Range(1, 6);
+        playerTwoRyhtm= Random.Range(1, 7);
 
         // let's set our player power levels, using an algorithm, the simpliest would be luck + style + rhythm
         // this algorthim should be the same for each character to keep it fair.
